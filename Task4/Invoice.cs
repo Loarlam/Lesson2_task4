@@ -10,7 +10,7 @@ namespace Task4
         readonly string customer, provider;
         string article;
         int quantity;
-        double costWithVAT = 0, costWithoutVAT = 0;
+        double costWithVAT, costWithoutVAT;
 
         public Invoice(int account, string customer, string provider)
         {
