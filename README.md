@@ -1,5 +1,4 @@
 # Lesson2_task4
-# Lesson2_task3
 Условия задачки:
 >Используя Visual Studio, создайте проект по шаблону Console Application.  
 Требуется:  
