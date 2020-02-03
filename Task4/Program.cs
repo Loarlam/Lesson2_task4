@@ -15,7 +15,7 @@ namespace Task4
     {
         static void Main(string[] args)
         {
-            //В 21 строке Article можно присвоить: "Монитора", "Телефоны", "Клавиатуры"
+            //В 21 строке Article можно присвоить: "Мониторы", "Телефоны", "Клавиатуры"
             Invoice invoice = new Invoice(951, "Школа №13", "Comp-city")
             {
                 Article = "Мониторы",
