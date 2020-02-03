@@ -18,7 +18,7 @@ namespace Task4
             this.customer = customer;
             this.provider = provider;
         }
-
+        
         public string Article { set { article = value; } }
         public int Quantity { set { quantity = value; } }
 
