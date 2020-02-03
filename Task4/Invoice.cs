@@ -22,11 +22,6 @@ namespace Task4
         public string Article { set { article = value; } }
         public int Quantity { set { quantity = value; } }
 
-        //account = номер счёта (выводим на экран)
-        //customer - выведем на экран
-        //provider - выведемн на экран
-        //article - нужен switch, но ввыведем на экран
-        //quantity - умножаем на цену товара с ндс и без ндс, выводим на экран
         void CreatesACheck(bool confirmation)
         {
             if (!confirmation) Console.WriteLine("{0} отсутствуют на складе", article);
